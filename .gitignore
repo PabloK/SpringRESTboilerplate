@@ -1,0 +1,10 @@
+#gitignore for eclipse web application
+target
+src/main/webapp/META-INF
+logging.log
+logging.log.1
+logs/*
+.classpath
+.project
+.settings
+*.log
