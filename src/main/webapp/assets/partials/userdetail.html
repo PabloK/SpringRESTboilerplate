@@ -1,0 +1,10 @@
+<h1>Users</h1>
+<p class="muted">{{state}}</p>
+<div class="well">	
+	<form ng-submit="updateUser()">
+		<label>Update user</label>
+		<input type="text" ng-model="user.name" value="{{user.name}}" required><br>
+		<a href="#/users" class="btn">cancel</a>	
+		<input type="submit" value="update" class="btn btn-primary">
+	</form>
+</div>

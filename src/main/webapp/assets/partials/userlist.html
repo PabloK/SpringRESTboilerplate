@@ -1,0 +1,12 @@
+<h1 class="user-title">Users</h1>
+<form ng-submit="createUser()" class="form-horizontal">
+	<label>Add new user</label>
+	<input type="text" ng-model="tempUser.name" required>	
+	<input type="submit" value="create" class="btn btn-primary">
+</form>
+<ul class="unstyled well">	
+	<li ng-repeat="user in users | orderBy:'name'">
+		<a href="" ng-click="deleteUser(user)"><i class="icon-remove"></i></a> <a href="#/users/{{user.id}}"><i class="icon-pencil"></i></a> 
+		{{user.name}}
+	</li>
+</ul>

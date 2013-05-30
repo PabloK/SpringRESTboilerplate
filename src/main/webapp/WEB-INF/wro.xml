@@ -1,0 +1,10 @@
+<groups xmlns="http://www.isdc.ro/wro">
+  <group name="a">
+    <js>/assets/js/controllers/*.js</js>
+    <js>/assets/js/directives/*.js</js>
+    <js>/assets/js/filters/*.js</js>
+    <js>/assets/js/services/*.js</js>
+    <js>/assets/js/*.js</js>
+    <css>/assets/css/*.css</css>
+  </group>
+</groups>
